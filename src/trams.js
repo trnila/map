@@ -1,4 +1,4 @@
-export const trams = [
+export default [
     {
         "name": "Hlavn\u00ed t\u0159\u00edda",
         "lat": "49.831254",

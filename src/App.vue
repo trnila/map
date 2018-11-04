@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="settings">
-    Distance {{radius}}m: <input type="range" v-model="radius" min="10" max="10000">
-    </div>
+        Distance {{radius}}m: <input type="range" v-model="radius" min="10" max="10000">
 
+        <button v-on:click="locate">Locati</button>
+    </div>
 
     <div id="map"></div>
   </div>
@@ -12,8 +13,9 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import L from 'leaflet'
-import {trams} from './trams.js'
+import trams from './trams.js'
 import Worker from 'worker-loader!./union.worker.js';
+import home_svg from './assets/home.svg'
 
 
 export default {
@@ -28,6 +30,7 @@ export default {
       worker: null,
       polygons: null,
       radius: 500,
+      location: null,
     }
   },
 
@@ -38,6 +41,25 @@ export default {
   },
 
   methods: {
+    locate() {
+      navigator.geolocation.getCurrentPosition(pos => {
+        if(this.location) {
+          this.map.removeLayer(self.location)
+        }
+
+        var firefoxIcon = L.icon({
+        iconUrl: home_svg,
+        iconSize: [38, 95], // size of the icon
+        });
+
+        const coord = [pos.coords.latitude, pos.coords.longitude]
+        this.map.setView(coord)
+        this.location = L.marker(coord, {icon: firefoxIcon})
+            .addTo(this.map)
+            .bindPopup('Your location')
+        })
+    },
+
     compute_radius() {
       this.new_worker()
       this.worker.postMessage({'points': trams, 'radius': this.radius})
@@ -50,11 +72,11 @@ export default {
       this.worker = new Worker();
 
       this.worker.addEventListener('message', msg => {
-        if(self.polygons) {
-          this.map.removeLayer(self.polygons)
+        if(this.polygons) {
+          this.map.removeLayer(this.polygons)
         }
 
-        self.polygons = L.polygon(msg.data).addTo(this.map)
+        this.polygons = L.polygon(msg.data).addTo(this.map)
       })
     }
   },
