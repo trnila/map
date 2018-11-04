@@ -7,7 +7,7 @@ self.addEventListener('message', msg => {
 	let radius = msg.data['radius'] / 1000
 
 	function make_circle(point) {
-		return circle([point['lat'], point['lon']], radius)
+		return circle([point['lat'], point['lon']], radius, {steps: 64})
 	}
 
 	let all = make_circle(points[0])
