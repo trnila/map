@@ -1081,6 +1081,233 @@ export default {
             "lon": "18.0510005"
         }
     ],
+    "libraries": [
+        {
+            "name": "unknown",
+            "lat": "49.8271949",
+            "lon": "18.1668147"
+        },
+        {
+            "name": "Knihovna",
+            "lat": "49.7886447",
+            "lon": "18.1624847"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.76941",
+            "lon": "18.3091666"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna B\u00edlovec",
+            "lat": "49.7596056",
+            "lon": "18.0189028"
+        },
+        {
+            "name": "Obecn\u00ed knihovna",
+            "lat": "49.6690734",
+            "lon": "18.0539277"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.7419669",
+            "lon": "18.3891102"
+        },
+        {
+            "name": "Knihovna m\u011bsta Ostravy",
+            "lat": "49.7844057",
+            "lon": "18.2611031"
+        },
+        {
+            "name": "Knihovna",
+            "lat": "49.6745964",
+            "lon": "18.4137762"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.8310461",
+            "lon": "18.3865543"
+        },
+        {
+            "name": "Region\u00e1ln\u00ed knihovna Karvin\u00e1",
+            "lat": "49.8559451",
+            "lon": "18.5543138"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.7984463",
+            "lon": "18.4807637"
+        },
+        {
+            "name": "Knihovna m\u011bsta Ostravy",
+            "lat": "49.8130677",
+            "lon": "18.3364046"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna",
+            "lat": "49.6773929",
+            "lon": "18.345171"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.689064",
+            "lon": "18.1323604"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.6592937",
+            "lon": "18.2811219"
+        },
+        {
+            "name": "Podrou\u017ekova",
+            "lat": "49.8455003",
+            "lon": "18.1716969"
+        },
+        {
+            "name": "L. Pod\u00e9\u0161t\u011b",
+            "lat": "49.8443202",
+            "lon": "18.1560171"
+        },
+        {
+            "name": "Obecn\u00ed knihovna",
+            "lat": "49.8612731",
+            "lon": "18.0395786"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna Hlu\u010d\u00edn",
+            "lat": "49.8964253",
+            "lon": "18.1854338"
+        },
+        {
+            "name": "Knihovna",
+            "lat": "49.6809844",
+            "lon": "18.465397"
+        },
+        {
+            "name": "Knihovna m\u011bsta Ostravy",
+            "lat": "49.8373973",
+            "lon": "18.295612"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.732863",
+            "lon": "18.2936961"
+        },
+        {
+            "name": "Univerzitn\u00ed knihovna Ostravsk\u00e9 univerzity",
+            "lat": "49.839935",
+            "lon": "18.2890973"
+        },
+        {
+            "name": "Moravskoslezsk\u00e1 v\u011bdeck\u00e1 knihovna",
+            "lat": "49.8410592",
+            "lon": "18.2908086"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna Orlov\u00e1",
+            "lat": "49.8710366",
+            "lon": "18.4247818"
+        },
+        {
+            "name": "Obecn\u00ed knihovna Star\u00e9 M\u011bsto",
+            "lat": "49.669139",
+            "lon": "18.365083"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna",
+            "lat": "49.7459933",
+            "lon": "18.6128879"
+        },
+        {
+            "name": "Obecn\u00ed knihovna Skotnice",
+            "lat": "49.6592606",
+            "lon": "18.1379149"
+        },
+        {
+            "name": "Obecn\u00ed knihovna Sviadnov",
+            "lat": "49.6881847",
+            "lon": "18.3261517"
+        },
+        {
+            "name": "Knihovna",
+            "lat": "49.812428",
+            "lon": "18.2718844"
+        },
+        {
+            "name": "Obecn\u00ed knihovna Krmel\u00edn",
+            "lat": "49.7312268",
+            "lon": "18.234851"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.8452077",
+            "lon": "18.1237191"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.8029416",
+            "lon": "18.6002325"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.8401786",
+            "lon": "18.0919861"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna Hav\u00ed\u0159ov",
+            "lat": "49.800834",
+            "lon": "18.4147151"
+        },
+        {
+            "name": "M\u011bstsk\u00e1 knihovna Bru\u0161perk",
+            "lat": "49.7003827",
+            "lon": "18.2235312"
+        },
+        {
+            "name": "Obecn\u00ed knihovna Star\u00e1 Ves nad Ond\u0159einic\u00ed",
+            "lat": "49.7279252",
+            "lon": "18.188474"
+        },
+        {
+            "name": "Region\u00e1ln\u00ed knihovna Karvin\u00e1",
+            "lat": "49.854435",
+            "lon": "18.5411086"
+        },
+        {
+            "name": "Knihovna No\u0161ovice",
+            "lat": "49.6568043",
+            "lon": "18.4287393"
+        },
+        {
+            "name": "M\u00edstn\u00ed knihovna Velk\u00e1 Polom",
+            "lat": "49.8639592",
+            "lon": "18.0935978"
+        },
+        {
+            "name": "Gminna Biblioteka Publiczna w Ha\u017clachu filia w Pogwizdowie",
+            "lat": "49.8038019",
+            "lon": "18.6004691"
+        },
+        {
+            "name": "M\u00edstn\u00ed knihovna Pazderna",
+            "lat": "49.7033071",
+            "lon": "18.4356692"
+        },
+        {
+            "name": "Obecn\u00ed knihovna T\u011brlicko",
+            "lat": "49.7515782",
+            "lon": "18.4832711"
+        },
+        {
+            "name": "unknown",
+            "lat": "49.7526954",
+            "lon": "18.199051"
+        },
+        {
+            "name": "Knihovna & \u0160enovsk\u00e9 muzeum",
+            "lat": "49.783635",
+            "lon": "18.3689271"
+        }
+    ],
     "bicycle_parking": [
         {
             "name": "bicycle parking",
@@ -1731,6 +1958,53 @@ export default {
             "name": "bicycle parking",
             "lat": "49.6997411",
             "lon": "18.2439834"
+        }
+    ],
+    "bike rent": [
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.8379923",
+            "lon": "18.2890303"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.8423814",
+            "lon": "18.2922122"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.836925",
+            "lon": "18.2869259"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.835795",
+            "lon": "18.2939784"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.8397236",
+            "lon": "18.2919621"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.8371945",
+            "lon": "18.2984309"
+        },
+        {
+            "name": "unknown\n",
+            "lat": "49.7318991",
+            "lon": "18.5109892"
+        },
+        {
+            "name": "REKOLA Bikesharing s.r.o.\nMar 21-Nov 21 00:00-24:00",
+            "lat": "49.8192499",
+            "lon": "18.265485"
+        },
+        {
+            "name": "unknown\n",
+            "lat": "49.8275116",
+            "lon": "18.2534502"
         }
     ]
 }

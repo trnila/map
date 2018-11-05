@@ -15,6 +15,22 @@ class BicycleParking:
         if 'amenity' in tags and tags['amenity'] == 'bicycle_parking':
             return 'bicycle parking'
 
+class AmenityParser:
+    def __init__(self, name):
+        self.name = name
+
+    def parse(self, node, tags):
+        if 'amenity' in tags and tags['amenity'] == self.name:
+            return tags.get('name', 'unknown')
+
+class BikeRentalParser:
+    def parse(self, node, tags):
+        if 'service:bicycle:rental' in tags:
+            return '\n'.join([
+                tags.get('service:bicycle:rental:operator', 'unknown'),
+                tags.get('service:bicycle:rental:opening_hours', ''),
+            ])
+
 
 class XMLHandler(ContentHandler):
     def __init__(self):
@@ -62,6 +78,8 @@ p = sax.make_parser()
 h = XMLHandler()
 h.add_parser("tram", TramParser())
 h.add_parser("bicycle_parking", BicycleParking())
+h.add_parser("libraries", AmenityParser('library'))
+h.add_parser("bike rent", BikeRentalParser())
 p.setContentHandler(h)
 p.parse(open('/home/daniel//Downloads/ostrava.osm'))
 
